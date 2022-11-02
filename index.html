@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -7,19 +8,75 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body style="background-image: url('images.jpg');">
-  <div class="container">
-    <h1>Is your Birthday Lucky?😍</h1>
-    <label for="Dob">
-      Date Of Birth:
-    </label>
-    <input type="date" id="Dob"><br>
-    <label for="Lucky_number">Lucky Number:</label>
-    <input type="number" id="Lucky_number"><br>
-    <button id="check">Check!!!</button>
-    <p id="result"></p>
+<body>
+  <div class="navigation_bar">
+    <h1>Fun With Triangles</h1>
+    <ul id="nav_list">
+      <li id="nav_link"><a class="link" href="Is_traingle.html">Is Triangle?</a></li>
+      <li id="nav_link"><a class="link" href="index.html">Quiz</a></li>
+      <li id="nav_link"><a class="link" href="Hypotenus.html">Hypotenuse</a></li>
+      <li id="nav_link"><a class="link" href="Area_Of_Triangle.html">Area Of triangle</a></li>
+    </ul>
   </div>
-  <script src="script.js"></script>
+
+  <div class="subheader">
+    <h2>Quiz on traingles</h2>
+    <h4>For Each correct answer you will get one point</h4>
+  </div>
+
+  <form class="quiz-form">
+    <div id="List_of_questions">
+      <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+        <label><input type="radio" name="question1" value="30" id="option">
+        30</label>
+        <label><input type="radio" name="question1"  value="90" id="option">
+        90</label>
+        <label><input type="radio" name="question1" value="60" id="option">
+        60</label>
+    </div>
+    
+    <div id="List_of_questions">
+      <p id="question">What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+        <label><input type="radio" name="question2" value="obtuse" id="option">
+        obtuse</label>
+        <label><input type="radio" name="question2" value="acute" id="option">
+        acute</label>
+        <label><input type="radio" name="question2" value="right angled" id="option">
+        right angled</label>
+      </div>
+     <div id="List_of_questions">
+      <p id="question">A triangle can have</p>
+        <label><input type="radio" name="question3" value="one right angle" id="option">
+        one right angle</label>
+        <label><input type="radio" name="question3" value="two right angled" id="option">
+        two right angles</label>
+      </div>
+    
+      <div id="List_of_questions">
+      <p id="question">Which of the following triangles are always similar?</p>
+        <label><input type="radio" name="question5" value="Equilateral Triangle" id="option">
+        Equilateral Triangle</label>
+        <label><input type="radio" name="question5" value="Isosceles Triangle" id="option">
+        Isosceles Traingle</label>
+      </div>
+    
+      <div id="List_of_questions">
+      <p id="question">If one angle of a triangle is obtuse, then which one of the following is the possible measure of
+        remaining angles?</p>
+         <label><input type="radio" name="question6" value="100" id="option">
+       100</label>
+        <label><input type="radio" name="question6" value="85" id="option">
+        85</label>
+      </div> 
+  </form>
+    <div id="submit">
+    <button id="submit-answer-btn">Submit</button>
+    </div>
+    <div id=>
+    <h2 id="output"></h2>
+    </div>
+  <script src="quizscript.js"></script>
+ 
 </body>
 
 </html>

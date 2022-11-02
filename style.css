@@ -2,16 +2,68 @@ html, body {
   height: 100%;
   width: 100%;
 }
+.navigation_bar{
+  width:100%;
+  margin-top:0px;
+  background-color: #9333ea;
+  border-bottom-left-radius:2rem;
+  padding-bottom:0.5rem;
+}
+h1{
+  padding: 1rem;
+  margin:0px;
+  color: white;
+}
+#nav_list{
+  list-style:none;
+  text-align:right;
+}
 
-.container{
+#nav_link{
+  display:inline;
+  padding:0.5rem;
+}
+.subheader,.quiz-form{
+  text-align:center;
   margin:auto;
-  text-align: left;
-  background: white;
-  width:400px;
-  border: 1px solid black;
-  padding:1rem;
-  display:block;
 }
-#check{
-margin: 1rem;
+#answers{
+  margin-bottom: 1rem;
 }
+#option{
+  padding:0.1rem;
+}
+#submit,#submit_is_traingle{
+  text-align:center;
+  margin:auto;
+}
+#result,#is_triangle,#submit-answer-btn{
+  background-color: #9333ea;
+  color:white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin:1rem;
+}
+.link{
+  text-decoration: none;
+  font-weight:bold;
+  color:white;
+}
+.Base_height_values{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  margin:auto;
+  width:50%;
+}
+#base{
+  display:flex;
+  flex-direction: column;
+  color:#9333ea;
+  font-weight: bold;
+}
+#base-value,#angle_value{
+  color:#9333ea;
+  font-weight: bold;
+}
+
