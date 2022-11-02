@@ -1,0 +1,1 @@
+This project tells you on entering the BirthDate and your lucky number the output will be whether your birthday is lucky or not.
