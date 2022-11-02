@@ -17,7 +17,7 @@ function calculateScore(){
     }
     index = index + 1;
   }
-     outputE1.innerText= "Your score is" + score; 
+     alert("Your score is" + score); 
    
 }
 
